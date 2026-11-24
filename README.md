@@ -1,4 +1,4 @@
-# PokemonGO-market
+# Pokemon-Trader-Gos
 
 ## 포켓몬 카드 거래·랜덤팩 앱 기획안
 
