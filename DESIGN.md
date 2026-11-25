@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: Pokemon-Trader-Gos
-description: 검수된 실물 포켓몬 카드를 구매하고, 랜덤팩을 개봉하고, 보관·배송·재매입을 관리하는 모바일 우선 카드 마켓. Clay의 따뜻한 크림 배경과 포인트 컬러를 사용한다.
+description: 검수된 실물 포켓몬 카드를 구매하고, 랜덤팩을 개봉하고, 보관·배송·재매입을 관리하는 모바일 우선 카드 마켓. Clay의 밝은 아이보리 배경과 포인트 컬러를 사용한다.
 
 colors:
   primary: "#0a0a0a"
@@ -14,7 +14,7 @@ colors:
   muted-soft: "#9a9a9a"
   hairline: "#e5e5e5"
   hairline-soft: "#f0f0f0"
-  canvas: "#fffaf0"
+  canvas: "#fffdf7"
   surface-soft: "#faf5e8"
   surface-card: "#f5f0e0"
   surface-strong: "#ebe6d6"
@@ -204,7 +204,7 @@ components:
 
 ## Overview
 
-따뜻한 크림 배경 위에 실물 카드의 사진과 색이 먼저 보이는 수집 앨범을 지향한다. 마켓에서는 검색과 가격 비교를 빠르게 하고, 랜덤팩에서는 개봉 전 조건과 개봉 후 배정된 카드를 명확히 보여준다.
+밝은 아이보리 배경 위에 실물 카드의 사진과 색이 먼저 보이는 수집 앨범을 지향한다. 마켓에서는 검색과 가격 비교를 빠르게 하고, 랜덤팩에서는 개봉 전 조건과 개봉 후 배정된 카드를 명확히 보여준다.
 
 포카마켓 공개 소개 화면의 카드 중심 탐색, 검수 안내와 구매 가격 배치, 콜렉트북 보관, 단계별 입고 안내를 참고했다. 포카마켓의 앱 화면은 공개 홍보 이미지 기준이다. 로그인 후 화면과 실제 거래는 검증 범위 밖이다. [포카마켓 공개 소개](https://phocamarket.com/) · [공식 앱 설명](https://play.google.com/store/apps/details?hl=ko&id=com.phocamarket.android) · [입고판매 안내](https://contents.phocamarket.com/how-to-use/stock-sale)
 
@@ -218,7 +218,7 @@ components:
 
 ### Surface & Text
 
-- `{colors.canvas}`는 앱의 기본 배경이다. `{colors.surface-soft}`는 매물 카드에, `{colors.surface-card}`는 사진 받침과 거래 상태 패널에 쓴다.
+- `{colors.canvas}`는 앱의 밝은 아이보리 기본 배경이다. `{colors.surface-soft}`는 매물 카드에, `{colors.surface-card}`는 사진 받침과 거래 상태 패널에 쓴다.
 - 제목과 주요 거래 정보는 `{colors.ink}`, 본문은 `{colors.body}`, 보조 정보는 `{colors.muted}`로 표시한다.
 - 핑크·라벤더·피치·오커 바탕에는 `{colors.ink}`, 짙은 틸 바탕에는 `{colors.on-dark}`를 쓴다. 가격과 상태는 카드 이미지 위에 겹치지 않게 배치한다.
 
